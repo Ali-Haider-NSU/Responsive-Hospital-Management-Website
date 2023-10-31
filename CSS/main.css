@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-color{
+    @apply text-[#0463FA] ;
+}
+
+.bgcol{
+    @apply bg-[#0463FA];
+}
+
+.top-icn{
+    @apply primary-color w-5 h-5 bg-white outline outline-[8px] outline-white rounded-full cursor-pointer;
+}
