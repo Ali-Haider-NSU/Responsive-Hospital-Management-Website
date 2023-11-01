@@ -13,3 +13,13 @@
 .top-icn{
     @apply primary-color w-5 h-5 bg-white outline outline-[8px] outline-white rounded-full cursor-pointer;
 }
+
+.single-icn{
+    @apply w-16 h-16 rounded-full bg-white flex justify-center items-center;
+}
+
+
+
+.rd-more{
+    @apply pl-10 mt-4 hidden group-hover:block bg-white py-3 rounded-r-full pr-10 transition delay-100 duration-1000 ease-linear -ml-7;
+}
