@@ -97,12 +97,12 @@
         <!-- About Us Section -->
         <section>
             <div class="mx-28 lg:mx-10 my-20 text-[#8D8E9B] lg:flex lg:justify-between gap-x-10">
-                <div class="relative h-[70vh] lg:h-[55vh] lg:w-[50%] ">
+                <div class="relative h-[40vh] sm:h-[50vh] md:h-[70vh] lg:h-[55vh] lg:w-[50%] ">
                     <img class="w-[68%] h-auto absolute top-0 right-0 rounded-lg" src="img/about-1.jpg" alt="">
-                    <img class="w-[45%] h-auto absolute bottom-0 left-0 outline outline-[15px] rounded-lg outline-white" src="img/about-2.jpg" alt="">
+                    <img class="w-[45%] h-auto absolute top-40 sm:top-48 md:top-60 right-[50%] outline outline-[15px] rounded-lg outline-white" src="img/about-2.jpg" alt="">
                 </div>
                 <div class="mt-10 lg:mt-0 lg:w-[50%]">
-                    <button class="border border-blue-300 w-28 h-8 rounded-full">About Us</button>
+                    <button class="border border-blue-300 w-28 h-8 rounded-full mt-10">About Us</button>
                     <h1 class="text-4xl font-bold mt-5 text-[#1B2C51]">Why You Should Trust Us? Get Know About Us!</h1>
                     <p class="text-lg mt-10">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet <br> Stet no et lorem dolor et diam, amet duo ut
                         dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
@@ -198,7 +198,7 @@
                     <p class="texl-lg my-5 lg:pr-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                     <div class="grid grid-cols-2 gap-y-7">
                         <div class="flex items-center gap-x-3">
-                            <div class="flex justify-center items-center w-14 h-14 bg-white rounded-full">
+                            <div class="features-icn">
                                 <i class="fa-solid fa-user-doctor primary-color text-xl"></i>
                             </div>
                             <div>
@@ -207,7 +207,7 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-x-3">
-                            <div class="flex justify-center items-center w-14 h-14 bg-white rounded-full">
+                            <div class="features-icn">
                                 <i class="fa-solid fa-check primary-color text-xl"></i>
                             </div>
                             <div>
@@ -216,7 +216,7 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-x-3">
-                            <div class="flex justify-center items-center w-14 h-14 bg-white rounded-full">
+                            <div class="features-icn">
                                 <i class="fa-solid fa-comment-medical primary-color text-xl"></i>
                             </div>
                             <div>
@@ -225,7 +225,7 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-x-3">
-                            <div class="flex justify-center items-center w-14 h-14 bg-white rounded-full">
+                            <div class="features-icn">
                                 <i class="fa-solid fa-phone-volume primary-color text-xl"></i>
                             </div>
                             <div>
@@ -308,7 +308,156 @@
                 </div>
             </div>
         </section>
+
+        <!-- Appointment Section -->
+
+        <section>
+            <div class="lg:flex lg:px-10 gap-x-10 mb-16">
+                <div class="mx-[10%] lg:mx-0 lg:w-[50%]">
+                    <button class="border border-blue-300 h-8 w-28 rounded-full mt-12 ">Appointment</button>
+                    <h1 class="text-[#1B2C51] text-3xl font-bold mt-3">Make An Appointment To Visit Our Doctor</h1>
+                    <p class="text-[#8D8E9F] mt-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+
+                    <div class="bg-[#EFF5FF] flex py-10 pl-10 rounded-xl items-center mt-8">
+                        <div class="appointment">
+                            <i class="fa-solid fa-phone primary-color"></i>
+                        </div>
+                        <div class="pl-5 grid gap-y-1">
+                            <p>Call Us Now</p>
+                            <h1 class="text-lg font-bold">+012 345 6789</h1>
+                        </div>
+                    </div>
+                    <div class="bg-[#EFF5FF] flex py-10 pl-10 rounded-xl items-center mt-8">
+                        <div class="appointment">
+                            <i class="fa-solid fa-envelope primary-color"></i>
+                        </div>
+                        <div class="pl-5 grid gap-y-1">
+                            <p>Call Us Now</p>
+                            <h1 class="text-lg font-bold">+012 345 6789</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#EFF5FF] mx-[10%] lg:mx-0 flex justify-center mt-12 p-12 lg:w-[50%]">
+                    <form action="" class="grid gap-10 lg:gap-8 grid-cols-2  w-[90%]lg:w-[100%]">
+                        <input class=" h-12 pl-5 rounded-lg" type="text" name="name" id="" placeholder="Your Name">
+                        <input class=" h-12 pl-5 rounded-lg" type="email" name="email" id="" placeholder="Your Email">
+
+                        <input class=" h-12 pl-5 rounded-lg" type="text" name="mobile" id="" placeholder="Your Mobile">
+                        <input class=" h-12 pl-5 rounded-lg" type="text" name="doctor" id="" placeholder="Choose Doctor">
+
+                        <input class=" h-12 pl-5 rounded-lg" type="text" name="date" id="" placeholder="Choose A Date">
+                        <input class=" h-12 pl-5 rounded-lg" type="text" name="time" id="" placeholder="Choose A Time">
+                        <textarea class="pl-3 pt-2 col-span-2 rounded-lg" name="textarea" id="" cols="30" rows="5" placeholder="Describer Your Problem"></textarea>
+                        <button class="h-12 bg-[#0463FA] text-white col-span-2 rounded-l">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+
+        <section>
+            <div>
+                <div class="flex justify-center">
+                    <button class="border border-blue-300 h-8 w-28 rounded-full mt-12 ">Doctors</button>
+                </div>
+                <h1 class="text-3xl font-bold text-[#1B2C51] text-center mt-5 mb-10">What Say Our Patients!</h1>
+
+                <div class="mx-[10%] grid gap-10 lg:grid-cols-2 lg:gap-16">
+                    <div class="bg-[#EFF5FF] pt-10 rounded-xl">
+                        <img class="rounded-full border-blue-600 border-[7px] mx-auto" src="img/testimonial-1.jpg" alt="">
+                        <div class="bg-[#0463FA] mt-7 p-[10%] text-center text-white rounded-b-xl">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, autem eaque alias ipsum deleniti ex optio illo sequi, suscipit deserunt, et labore sunt ut laudantium amet quos doloremque dolor esse.</p>
+                            <h1 class="text-xl font-bold mt-3">Natali Portman</h1>
+                            <p class="text-lg italic">Engineer</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#EFF5FF] pt-10 rounded-xl">
+                        <img class="rounded-full border-blue-600 border-[7px] mx-auto" src="img/testimonial-2.jpg" alt="">
+                        <div class="bg-[#0463FA] mt-7 p-[10%] text-center text-white rounded-b-xl">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, autem eaque alias ipsum deleniti ex optio illo sequi, suscipit deserunt, et labore sunt ut laudantium amet quos doloremque dolor esse.</p>
+                            <h1 class="text-xl font-bold mt-3">Alexander Boo</h1>
+                            <p class="text-lg italic">Fashion Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
+
+    <!-- Footer Section -->
+
+    <footer class="bg-[#1B2C51] text-white mt-16">
+        <div class="px-[10%] md:px-[5%] grid md:grid-cols-2 lg:grid-cols-4">
+            <div>
+                <h1 class="text-xl font-bold pt-10">Address</h1>
+                <div class="text-lg flex items-center gap-x-2 mt-4">
+                    <i class="fa-solid fa-location-dot"></i><span>123 Street, New York, USA</span>
+                </div>
+                <div class="text-lg flex items-center gap-x-2 mt-2">
+                    <i class="fa-solid fa-phone"></i><span>+012 345 67890</span>
+                </div>
+                <div class="text-lg flex items-center gap-x-2 mt-2">
+                    <i class="fa-solid fa-envelope"></i><span>name@domain.com</span>
+                </div>
+                <div class="flex gap-x-3 mt-5">
+                    <div class="footer-icn">
+                        <i class="fa-brands fa-twitter  "></i>
+                    </div>
+                    <div class="footer-icn">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="footer-icn">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="footer-icn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-xl font-bold pt-10 mb-4">Service</h1>
+                <div class="text-lg leading-10">
+                    <p class="footer-srvc">> Cardiology</p>
+                    <p class="footer-srvc">> Pulmonary</p>
+                    <p class="footer-srvc">> Neurology</p>
+                    <p class="footer-srvc">> Orthopedics</p>
+                    <p class="footer-srvc">> Laboratory</p>
+
+                </div>
+
+            </div>
+
+            <div>
+                <h1 class="text-xl font-bold pt-10 mb-4">Quick Links</h1>
+                <div class="text-lg leading-10">
+                    <p class="footer-srvc">> About Us</p>
+                    <p class="footer-srvc">> Contact Us</p>
+                    <p class="footer-srvc">> Our Services</p>
+                    <p class="footer-srvc">> Terms and Condition</p>
+                    <p class="footer-srvc">> Support</p>
+
+                </div>
+
+            </div>
+
+            <div>
+                <h1 class="text-xl font-bold pt-10 mb-4">Newsletter</h1>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="mt-8 pb-14 relative">
+                    <input class="h-14 pl-5 rounded-xl w-full" type="text" placeholder="Your email">
+                    <button class="h-10 bg-[#0463FA] text-white px-5 rounded-xl absolute top-2 right-2 ">Sign Up</button>
+                </div>
+
+            </div>
+
+
+        </div>
+        <hr class="pb-14 mt-10">
+        <p class="mx-[20%] text-center -mt-10 pb-10"> © Your Site Name, All Rights Reserved. Designed By HTML Codex </p>
+    </footer>
 </body>
 
 </html>

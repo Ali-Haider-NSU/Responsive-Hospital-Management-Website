@@ -18,8 +18,22 @@
     @apply w-16 h-16 rounded-full bg-white flex justify-center items-center;
 }
 
-
+.features-icn{
+    @apply flex justify-center items-center w-14 h-14 bg-white rounded-full;
+}
 
 .rd-more{
     @apply pl-10 mt-4 hidden group-hover:block bg-white py-3 rounded-r-full pr-10 transition delay-100 duration-1000 ease-linear -ml-7;
+}
+
+.appointment{
+    @apply w-14 h-14 bg-white flex justify-center items-center rounded-full;
+}
+
+.footer-icn{
+    @apply h-9 w-9 rounded-full border flex justify-center items-center hover:bg-white hover:text-[#0463FA] cursor-pointer text-lg;
+}
+
+.footer-srvc{
+    @apply hover:text-[#0463FA] transition cursor-pointer;
 }
